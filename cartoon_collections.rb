@@ -15,5 +15,5 @@ def long_planeteer_calls(calls_array)
 end
 
 def find_the_cheese(cheese)
-  strings.find {|ingredient| strings.include?(ingredient)}
+  strings.find {|ingredient| cheese.include?(ingredient)}
 end
